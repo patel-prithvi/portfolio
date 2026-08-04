@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-cyan: #0ea5e9;
+  --color-brand-teal: #14b8a6;
+  --color-brand-indigo: #6366f1;
+  --color-bg-dark: #07090e;
+  --color-bg-card: #0e131f;
+  --color-border-card: #1e293b;
+}
+
+:root {
+  --background: #07090e;
+  --foreground: #f1f5f9;
+}
+
+html {
+  color-scheme: dark;
+  background-color: #07090e;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9;
+}
+
+/* Blinking Cursor for Terminal & Typewriter */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+/* Glassmorphism Card Style */
+.glass-panel {
+  background: rgba(14, 19, 31, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(20, 27, 45, 0.85);
+  border-color: rgba(56, 189, 248, 0.3);
+  box-shadow: 0 0 25px -5px rgba(14, 165, 233, 0.15);
+}

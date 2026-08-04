@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12101c"/>
+      <stop offset="100%" stop-color="#1a1530"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#22d3b6"/>
+    </linearGradient>
+    <linearGradient id="sidebarGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#211c38"/>
+      <stop offset="100%" stop-color="#191530"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#pageBg)"/>
+
+  <!-- Title -->
+  <text x="60" y="56" font-size="30" font-weight="bold" fill="#ffffff">📂 AI Document Analyzer</text>
+  <text x="480" y="56" font-size="17" fill="#9a92c2">— Classification &amp; Intelligent Indexing</text>
+  <text x="60" y="82" font-size="14" fill="#6f6795">Python · Streamlit · Hugging Face Transformers · PyTorch · MySQL</text>
+
+  <!-- Browser window -->
+  <rect x="60" y="108" width="1080" height="600" rx="12" fill="#0d0c16" stroke="#2c2650" stroke-width="1.5"/>
+  <rect x="60" y="108" width="1080" height="40" rx="12" fill="#181430"/>
+  <rect x="60" y="132" width="1080" height="16" fill="#181430"/>
+  <circle cx="88" cy="128" r="6" fill="#ff5f57"/>
+  <circle cx="108" cy="128" r="6" fill="#febc2e"/>
+  <circle cx="128" cy="128" r="6" fill="#28c840"/>
+  <rect x="430" y="118" width="340" height="20" rx="10" fill="#0d0c16" stroke="#332c5c" stroke-width="1"/>
+  <text x="600" y="132" font-size="12" fill="#8a82b5" text-anchor="middle">localhost:8501</text>
+
+  <!-- Sidebar -->
+  <rect x="60" y="148" width="220" height="560" fill="url(#sidebarGrad)"/>
+  <text x="86" y="188" font-size="15" font-weight="bold" fill="#ffffff">🔐 Sign in</text>
+
+  <text x="86" y="222" font-size="12" fill="#a49bd6">Role</text>
+  <rect x="86" y="230" width="168" height="30" rx="6" fill="#2a2450" stroke="#453c80" stroke-width="1"/>
+  <text x="98" y="250" font-size="13" fill="#e6e2fb">HR ▾</text>
+
+  <text x="86" y="286" font-size="12" fill="#a49bd6">Username</text>
+  <rect x="86" y="294" width="168" height="28" rx="6" fill="#171233" stroke="#332c5c" stroke-width="1"/>
+  <text x="96" y="313" font-size="12" fill="#6f6795">hr_admin</text>
+
+  <text x="86" y="345" font-size="12" fill="#a49bd6">Password</text>
+  <rect x="86" y="353" width="168" height="28" rx="6" fill="#171233" stroke="#332c5c" stroke-width="1"/>
+  <text x="96" y="372" font-size="12" fill="#6f6795">••••••••</text>
+
+  <rect x="86" y="396" width="168" height="34" rx="7" fill="url(#accentGrad)"/>
+  <text x="170" y="418" font-size="13" font-weight="bold" fill="#12101c" text-anchor="middle">Login</text>
+
+  <line x1="86" y1="452" x2="254" y2="452" stroke="#332c5c" stroke-width="1"/>
+  <text x="86" y="480" font-size="11" fill="#7a72a8">NAVIGATION</text>
+  <text x="86" y="508" font-size="13" fill="#e6e2fb">📤 Upload</text>
+  <rect x="78" y="516" width="176" height="26" rx="6" fill="#2a2450"/>
+  <text x="86" y="534" font-size="13" fill="#ffffff">🔍 Search</text>
+  <text x="86" y="562" font-size="13" fill="#a49bd6">📊 Dashboard</text>
+
+  <text x="86" y="700" font-size="11" fill="#6f6795">Access scope: HR documents only</text>
+
+  <!-- Main panel -->
+  <text x="310" y="188" font-size="20" font-weight="bold" fill="#ffffff">Upload &amp; Classify</text>
+
+  <!-- Upload dropzone -->
+  <rect x="310" y="208" width="780" height="90" rx="10" fill="#171233" stroke="#453c80" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="700" y="248" font-size="14" fill="#a49bd6" text-anchor="middle">⬆  Drag &amp; drop a PDF, DOCX, or TXT file here</text>
+  <text x="700" y="270" font-size="12" fill="#6f6795" text-anchor="middle">offer_letter_2026.pdf  ·  1.2 MB</text>
+
+  <!-- classification result card -->
+  <rect x="310" y="320" width="380" height="150" rx="10" fill="#171233" stroke="#332c5c" stroke-width="1"/>
+  <text x="330" y="350" font-size="13" font-weight="bold" fill="#22d3b6">✅ AI CLASSIFICATION</text>
+  <rect x="330" y="362" width="90" height="26" rx="13" fill="#22d3b6"/>
+  <text x="375" y="379" font-size="12" font-weight="bold" fill="#0d0c16" text-anchor="middle">HR</text>
+  <text x="430" y="379" font-size="12" fill="#a49bd6">Confidence: 94.2%</text>
+  <text x="330" y="410" font-size="12" fill="#c9c3ec">Summary:</text>
+  <text x="330" y="430" font-size="11" fill="#a49bd6">"Formal offer letter outlining role,</text>
+  <text x="330" y="446" font-size="11" fill="#a49bd6">compensation, and joining date for</text>
+  <text x="330" y="462" font-size="11" fill="#a49bd6">a new hire."</text>
+
+  <!-- pipeline card -->
+  <rect x="710" y="320" width="380" height="150" rx="10" fill="#171233" stroke="#332c5c" stroke-width="1"/>
+  <text x="730" y="350" font-size="13" font-weight="bold" fill="#7c5cff">⚙ PROCESSING PIPELINE</text>
+  <g font-size="11" fill="#c9c3ec">
+    <circle cx="738" cy="372" r="4" fill="#22d3b6"/>
+    <text x="750" y="376">Text extraction (PyPDF2)</text>
+    <circle cx="738" cy="394" r="4" fill="#22d3b6"/>
+    <text x="750" y="398">Classification (HF Transformers)</text>
+    <circle cx="738" cy="416" r="4" fill="#22d3b6"/>
+    <text x="750" y="420">Summarization (PyTorch)</text>
+    <circle cx="738" cy="438" r="4" fill="#f4c430"/>
+    <text x="750" y="442">Indexing into MySQL…</text>
+  </g>
+
+  <!-- search section -->
+  <text x="310" y="512" font-size="20" font-weight="bold" fill="#ffffff">Search Documents</text>
+  <rect x="310" y="530" width="780" height="34" rx="17" fill="#171233" stroke="#453c80" stroke-width="1"/>
+  <text x="326" y="552" font-size="13" fill="#e6e2fb">🔍 "employee compensation policy"</text>
+
+  <!-- results -->
+  <g font-size="12">
+    <rect x="310" y="580" width="780" height="40" rx="8" fill="#171233"/>
+    <text x="326" y="604" fill="#ffffff" font-weight="bold">HR_Policy_2026.docx</text>
+    <rect x="960" y="588" width="50" height="20" rx="10" fill="#22d3b6"/>
+    <text x="985" y="602" fill="#0d0c16" text-anchor="middle" font-size="10">HR</text>
+    <text x="1020" y="602" fill="#6f6795" font-size="10">98% match</text>
+
+    <rect x="310" y="628" width="780" height="40" rx="8" fill="#171233"/>
+    <text x="326" y="652" fill="#ffffff" font-weight="bold">Offer_Letter_2026.pdf</text>
+    <rect x="960" y="636" width="50" height="20" rx="10" fill="#22d3b6"/>
+    <text x="985" y="650" fill="#0d0c16" text-anchor="middle" font-size="10">HR</text>
+    <text x="1020" y="650" fill="#6f6795" font-size="10">91% match</text>
+
+    <rect x="310" y="676" width="780" height="40" rx="8" fill="#171233"/>
+    <text x="326" y="700" fill="#ffffff" font-weight="bold">Leave_Policy.txt</text>
+    <rect x="960" y="684" width="50" height="20" rx="10" fill="#22d3b6"/>
+    <text x="985" y="698" fill="#0d0c16" text-anchor="middle" font-size="10">HR</text>
+    <text x="1020" y="698" fill="#6f6795" font-size="10">85% match</text>
+  </g>
+
+  <text x="1140" y="740" font-size="13" fill="#6f6795" text-anchor="end">github.com/patel-prithvi/AI-Powered-Document-Classification-and-Intelligent-Indexing</text>
+</svg>

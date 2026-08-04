@@ -1,0 +1,150 @@
+<svg viewBox="0 0 1920 940" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <defs>
+    <linearGradient id="plateWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a7a68"/>
+      <stop offset="100%" stop-color="#5f5347"/>
+    </linearGradient>
+    <radialGradient id="plateGrad" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#f5f3ee"/>
+      <stop offset="100%" stop-color="#d8d3c8"/>
+    </radialGradient>
+    <clipPath id="rounded">
+      <rect x="965" y="265" width="820" height="545" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Page background -->
+  <rect x="0" y="0" width="1920" height="940" fill="#f4f2ec"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1920" height="97" fill="#ffffff"/>
+  <rect x="0" y="96" width="1920" height="2" fill="#e6e3da"/>
+
+  <!-- Logo -->
+  <circle cx="141" cy="56" r="24" fill="#ffffff" stroke="#4b5c3d" stroke-width="2.5"/>
+  <path d="M141 40 C150 44 154 54 148 62 C142 70 132 68 130 60 C128 52 134 42 141 40 Z" fill="#5b7a4a"/>
+  <path d="M141 62 L141 72" stroke="#7a5a3a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="178" y="65" font-size="26" font-weight="bold" fill="#222222">Meal Prep</text>
+
+  <!-- Nav buttons -->
+  <rect x="1381" y="30" width="122" height="52" rx="8" fill="#ffffff" stroke="#cfcabf" stroke-width="1.5"/>
+  <text x="1442" y="63" font-size="20" fill="#333333" text-anchor="middle">Login</text>
+
+  <rect x="1519" y="27" width="185" height="56" rx="8" fill="#4b5c3d"/>
+  <text x="1611" y="62" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Get Started</text>
+
+  <rect x="1728" y="30" width="52" height="52" rx="8" fill="#ffffff" stroke="#cfcabf" stroke-width="1.5"/>
+  <path d="M1754 42 a10 10 0 1 0 8 16 a12 12 0 0 1 -8 -16 Z" fill="#e2a83c"/>
+
+  <!-- Badge -->
+  <rect x="112" y="240" width="440" height="46" rx="23" fill="#4b5c3d"/>
+  <text x="140" y="269" font-size="14" letter-spacing="1" fill="#e8e4d8">IN</text>
+  <text x="163" y="270" font-size="19" fill="#ffffff">India's 1st Free Indian Meal Planner</text>
+
+  <!-- Heading -->
+  <text x="108" y="390" font-size="76" font-weight="bold" fill="#4b5c3d">Eat Healthy,</text>
+  <text x="108" y="475" font-size="76" font-weight="bold" fill="#4b5c3d">Live Happy</text>
+
+  <!-- Paragraph -->
+  <text x="112" y="542" font-size="23" fill="#6b6b6b">Personalized Indian meal plans crafted by experts to help you stay</text>
+  <text x="112" y="578" font-size="23" fill="#6b6b6b">fit, lose weight, and live better.</text>
+
+  <!-- Checklist -->
+  <text x="112" y="638" font-size="21" font-weight="bold" fill="#222222">✓ Trusted by 50,000+ Indians</text>
+  <text x="112" y="674" font-size="21" font-weight="bold" fill="#222222">✓ Dietician Recommended</text>
+  <text x="112" y="710" font-size="21" font-weight="bold" fill="#222222">✓ 100% Free &amp; Simple</text>
+
+  <!-- CTA buttons -->
+  <rect x="112" y="755" width="207" height="66" rx="10" fill="#4b5c3d"/>
+  <text x="215" y="797" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Get Started</text>
+
+  <rect x="335" y="755" width="135" height="66" rx="10" fill="#ffffff" stroke="#b8b4a8" stroke-width="1.5"/>
+  <text x="402" y="797" font-size="22" fill="#333333" text-anchor="middle">Login</text>
+
+  <!-- Hero image: stylized illustrated food bowl (replacing photo) -->
+  <rect x="965" y="265" width="820" height="545" rx="18" fill="url(#plateWood)"/>
+  <g clip-path="url(#rounded)">
+    <!-- wood plank texture lines -->
+    <g stroke="#4d4237" stroke-width="2" opacity="0.35">
+      <line x1="965" y1="330" x2="1785" y2="330"/>
+      <line x1="965" y1="410" x2="1785" y2="410"/>
+      <line x1="965" y1="500" x2="1785" y2="500"/>
+      <line x1="965" y1="600" x2="1785" y2="600"/>
+      <line x1="965" y1="700" x2="1785" y2="700"/>
+    </g>
+
+    <!-- plate -->
+    <circle cx="1375" cy="535" r="255" fill="url(#plateGrad)" stroke="#c3bcae" stroke-width="3"/>
+    <circle cx="1375" cy="535" r="225" fill="none" stroke="#e5e1d6" stroke-width="2"/>
+
+    <!-- lettuce top right -->
+    <path d="M1440 320 C1480 300 1540 310 1560 350 C1580 390 1560 430 1520 440 C1560 460 1550 500 1510 500 C1470 500 1440 470 1430 430 C1410 400 1420 350 1440 320 Z" fill="#7fae4a"/>
+    <path d="M1450 335 C1480 325 1520 335 1535 360" stroke="#5f8a34" stroke-width="3" fill="none"/>
+
+    <!-- yellow mango slices -->
+    <ellipse cx="1235" cy="400" rx="30" ry="95" fill="#f4c430" transform="rotate(-18 1235 400)"/>
+    <ellipse cx="1275" cy="380" rx="26" ry="85" fill="#f7d24a" transform="rotate(-10 1275 380)"/>
+
+    <!-- cherry tomatoes on vine -->
+    <circle cx="1330" cy="360" r="20" fill="#c62b2b"/>
+    <circle cx="1360" cy="395" r="22" fill="#d1362f"/>
+    <circle cx="1345" cy="435" r="20" fill="#c62b2b"/>
+    <circle cx="1310" cy="480" r="19" fill="#cf3230"/>
+    <path d="M1330 340 C1345 370 1355 410 1345 450 C1338 470 1320 480 1310 480" stroke="#4f7a35" stroke-width="3" fill="none"/>
+
+    <!-- purple cabbage shreds -->
+    <path d="M1520 440 C1560 450 1590 470 1600 500 C1610 530 1590 550 1560 545 C1580 560 1570 585 1540 580 C1510 575 1490 555 1495 525 C1490 495 1500 465 1520 440 Z" fill="#7b4a8c"/>
+    <path d="M1530 455 L1580 500 M1525 480 L1575 520 M1520 505 L1560 540" stroke="#a877b8" stroke-width="3" fill="none"/>
+
+    <!-- chickpeas -->
+    <g fill="#e8cf9a">
+      <circle cx="1470" cy="530" r="12"/>
+      <circle cx="1495" cy="545" r="12"/>
+      <circle cx="1450" cy="555" r="12"/>
+      <circle cx="1480" cy="565" r="12"/>
+      <circle cx="1510" cy="565" r="12"/>
+      <circle cx="1460" cy="580" r="12"/>
+      <circle cx="1490" cy="590" r="12"/>
+    </g>
+
+    <!-- roasted sweet potato cubes -->
+    <g fill="#d97b32">
+      <rect x="1550" y="540" width="26" height="26" rx="4"/>
+      <rect x="1580" y="555" width="26" height="26" rx="4"/>
+      <rect x="1555" y="575" width="26" height="26" rx="4"/>
+      <rect x="1590" y="585" width="26" height="26" rx="4"/>
+      <rect x="1610" y="555" width="26" height="26" rx="4"/>
+    </g>
+
+    <!-- tahini drizzle -->
+    <path d="M1440 400 Q1460 430 1440 460 Q1470 480 1460 510 Q1500 520 1520 550 Q1560 560 1580 590" stroke="#f2ead8" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- avocado slices -->
+    <path d="M1280 620 C1330 590 1400 590 1440 630 C1460 660 1440 700 1400 710 C1350 720 1290 700 1270 660 C1260 645 1265 630 1280 620 Z" fill="#8fbf5a"/>
+    <g fill="#f5e6a8">
+      <circle cx="1310" cy="640" r="4"/>
+      <circle cx="1330" cy="655" r="4"/>
+      <circle cx="1350" cy="640" r="4"/>
+      <circle cx="1370" cy="660" r="4"/>
+      <circle cx="1390" cy="645" r="4"/>
+    </g>
+
+    <!-- watermelon radish -->
+    <path d="M1180 545 L1250 570 L1190 620 L1160 580 Z" fill="#e0568a"/>
+    <path d="M1200 555 L1245 572 L1205 605 Z" fill="#f4a8c4"/>
+
+    <!-- microgreens sprinkle -->
+    <g stroke="#4f7a35" stroke-width="2">
+      <line x1="1230" y1="700" x2="1225" y2="680"/>
+      <line x1="1250" y1="710" x2="1248" y2="688"/>
+      <line x1="1280" y1="715" x2="1280" y2="695"/>
+      <line x1="1310" y1="712" x2="1315" y2="690"/>
+      <line x1="1420" y1="705" x2="1415" y2="685"/>
+      <line x1="1450" y1="695" x2="1448" y2="675"/>
+    </g>
+  </g>
+  <rect x="965" y="265" width="820" height="545" rx="18" fill="none" stroke="#00000015" stroke-width="2"/>
+
+  <!-- caption -->
+  <text x="1375" y="900" font-size="16" fill="#9a9585" text-anchor="middle" font-style="italic">Illustrated recreation — hero section, Meal Prep landing page</text>
+</svg>
