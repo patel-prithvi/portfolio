@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -29,6 +30,14 @@ export const metadata: Metadata = {
     "LJIET",
   ],
   authors: [{ name: "Prithvi Patel", url: "https://github.com/patel-prithvi" }],
+  verification: {
+    google: "1X_EcS7O3xu3inIjEffUNGDfI398sWdMVVcdu833oSs",
+  },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Prithvi Patel | Full-Stack Software Developer",
     description:
@@ -38,6 +47,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Prithvi Patel Portfolio",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#07090e",
 };
 
 export default function RootLayout({
