@@ -33,11 +33,6 @@ export const metadata: Metadata = {
   verification: {
     google: "1X_EcS7O3xu3inIjEffUNGDfI398sWdMVVcdu833oSs",
   },
-  icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
-  },
   openGraph: {
     title: "Prithvi Patel | Full-Stack Software Developer",
     description:
